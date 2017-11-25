@@ -1,4 +1,4 @@
-const badges=['Lisa', 'Kaitlin', 'Jan', 'Joe', 'Gabe']
+const badges=['Joe', 'Gabe', 'Lisa', 'Kaitlin', 'Jan']
 
 function printBadges (badges) {
   for (let i = 0; i < badges.length; i++) {
