@@ -8,5 +8,9 @@ return badges;
   }
 
   function tailsNeverFails() {
+    return Math.random() >= 0.5;
+  }
 
+    while (tailsNeverFails()) {
+    console.log(`You got ${Math.random} tails in a row!`);
   }
